@@ -6,6 +6,15 @@ int main()
     int n;
     cin>>n;
 
+    /*
+    for n=5, print:
+            1
+           232
+          34543
+         4567654
+        567898765
+    */
+
     for(int rows=0;rows<n;rows+=1)
     {
         //spaces
